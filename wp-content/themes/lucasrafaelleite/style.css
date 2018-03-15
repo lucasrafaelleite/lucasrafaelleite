@@ -1,0 +1,57 @@
+/*
+Theme Name: Lucas Rafael Leite
+Theme URI: http://www.lucasrafaelleite.com.br
+Author: Indexnet
+Author URI: http://www.lucasrafaelleite.com.br
+
+*/
+
+/* Helpers */
+* {box-sizing:border-box;}
+p {font-family:'Poppins', sans-serif; font-weight:300; font-size:14px; line-height:18px; color:#000;}
+h1, h2, h3, h4, h5, h6 {font-family:'Poppins', sans-serif; color:#000;}
+img {max-width:100%;}
+	
+	
+	/* Header */
+	.lateral {display:flex;}
+	
+	header {background:#f5f5f5; display:table; width:100%; position:relative; min-height:100%;}
+		header img {border-radius:50%; width:150px; height:150px; border:5px #fff solid; box-shadow:0px 0px 3px #dedede; margin:30px auto; display:block;}
+		header h1 {text-align:center; font-size:24px; font-weight:400; margin-bottom:5px;}
+		header h2 {font-size:13px; text-align:center; line-height:14px; color:#666;}
+		
+		header nav {margin:50px 0px;}
+		header nav ul {display:table; width:100%;}
+			header nav ul li {display:table; width:100%;}
+				header nav ul li a {transition-duration: .90s; display:block; text-align:center; font-size:18px; color:#666; padding:10px;}
+				header nav ul li a:hover {color:#000; text-decoration:none;}
+					header nav ul li a:after {content:''; width:40px; height:1px; background:#f5f5f5; display:table; margin:0px auto; margin-top:10px;}
+					header nav ul li a:hover:after {background:#000; transition-duration: .90s;}
+				
+		header .social {position:absolute; bottom:0px; left:0px; padding:10px 0px; width:100%;}
+			header .social ul {display:table; margin:0 auto;}
+				header .social ul li {float:left; margin:0 5px;}
+					header .social ul li a {font-size:18px; color:#000; opacity:0.7;}
+					header .social ul li a:hover {opacity:1.0}
+					
+					
+	/* Content */
+	.conteudo {position:relative; padding:40px 15px;}
+	
+		/* Home */
+		.conteudo article {border-bottom:1px #dedede dotted; margin-bottom:30px;}
+			.conteudo article h1 {font-size:30px; line-height:30px; margin-bottom:15px;}
+			.conteudo article p {margin-bottom:15px;}
+			.conteudo article .btn {margin-bottom:15px; padding:5px 10px; font-size:11px; text-transform:uppercase;}
+			
+		.conteudo .page-numbers {float:right; display:table;}
+			.conteudo .page-numbers li {float:left; margin:0 5px;}
+				.conteudo .page-numbers li a {color:#666; padding:10px; background:#f5f5f5; border-radius:4px; font-size:13px;}
+					.conteudo .page-numbers li a:hover {text-decoration:none; background:#28a745; color:#fff;}
+				.conteudo .page-numbers li span {color:#666; padding:10px; font-size:13px;}
+	
+	
+	/* Footer */
+	footer {position:absolute; width:100%; left:0px; bottom:0px; padding:10px 10px; background:#fff;}
+		footer p {font-size:13px; color:#666;}
